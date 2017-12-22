@@ -1,0 +1,88 @@
+#introduction{
+	background-image: url(fond.jpg);
+	background-size:cover ;
+	font-weight: 700;
+	width: 1920;
+	height:1600;
+	color: white;
+	Overflow:auto;
+	padding-bottom:100px;
+}
+#image{
+	border-radius: 50%;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+}
+#competences{
+	background-size:cover ;
+	background-color: white;
+	Overflow:auto;
+}
+#contact{
+	background-size:cover ;
+	background-color: white;
+	Overflow:auto;
+}
+h1{
+	font-weight:700;
+	color: black;
+	font-size: 1.75rem;
+}
+hr{
+	max-width: 50px;
+    border-color: blue;
+    border-width: 3px;
+}
+h2{
+	font-size:1rem;
+	font-weight: 500;
+}
+h3{
+	font-weight:700;
+	color: black;
+	font-size: 1.25rem;
+}
+#diplomes{
+	background-size:cover ;
+	background-color: red;
+	Overflow:auto;
+}
+.sep{
+	max-width: 50px;
+    border-color: white;
+    border-width: 3px;
+}
+.dif{
+	font-weight:700;
+	color: white;
+	font-size: 1.75rem;
+}
+h4{
+	font-size:0.65rem;
+	font-weight: 500;
+}
+#interets{
+	background-size:cover;
+	background-color:green;
+	Overflow:auto;
+}
+.couleur{
+	color:white;
+}
+#gauche{
+	float:left;
+	padding-left:550px;
+}
+#droite{
+	float:right;
+	padding-right:550px;
+}
+@media only screen and (max-width:750px) {
+	#gauche{	
+		float:none;
+	}
+	#droite{
+		float:none;
+	}
+}
